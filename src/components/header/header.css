@@ -1,0 +1,18 @@
+.Header{
+    display: flex;
+    background-color: white;
+}
+
+img{
+    height: 15;
+    display: flex;
+    align-items: center;
+}
+
+.headerwrapper{
+    display: flex;
+    width: 100%;
+}
+nav{
+    flex:2;
+}

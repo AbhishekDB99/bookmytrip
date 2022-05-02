@@ -1,0 +1,83 @@
+.inner{
+    display: flex;
+}
+
+.hsw_inputBox{
+    background: hsla(0,0%,100%,.1);
+    border-radius: 4px;
+    margin-right: 5px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    min-height: 46px;
+}
+
+.tripTypeWrapper{
+    width: 125px;
+}
+.lbl_input{
+    text-transform: uppercase;
+    padding: 4px 9px 0
+}
+.latoBold {
+    font-weight: 700;
+}
+.font12 {
+    font-size: 12px;
+    line-height: 12px;
+}
+.blueText {
+    color: var(--color-primary, #008cff);
+}
+.appendBottom5 {
+    margin-bottom: 5px;
+}
+
+.downArrow {
+    position: absolute;
+    right: 10%!important;
+    top: 13px;
+    pointer-events: none;
+    transform: none!important;
+    left: auto;
+}
+.multiDropDownVal {
+    color: #fff;
+    font-size: 16px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.hsw_inputField {
+    border: 0;
+    outline: 0;
+    background: none;
+    min-width: 140px;
+    cursor: pointer;
+    padding: 4px 9px;
+    text-transform: capitalize;
+}
+
+.font16 {
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.whiteText {
+    color: #ffffff;
+}
+
+.swap-icon {
+    background-position: -66px -448px;
+    width: 15px;
+    height: 11px;
+    background: url(https://jsak.mmtcdn.com/flights/assets/media/Listing_sprite.png);
+    display: inline-block;
+}
+
+.marR8 {
+    margin-right: 8px!important;
+}
